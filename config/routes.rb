@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
    get 'blogging/naya'
    resources :blogging
-   root 'articles#new'
+   root 'articles#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
